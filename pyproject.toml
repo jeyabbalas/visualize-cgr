@@ -1,7 +1,8 @@
 [tool.poetry]
 name = "visualize-cgr"
 version = "0.1.0"
-description = ""
+description = "Visualizing chaos game representation of GRCh37"
+license = "MIT"
 authors = ["Jeya Balaji Balasubramanian <jeyabbalas@gmail.com>"]
 
 [tool.poetry.dependencies]
