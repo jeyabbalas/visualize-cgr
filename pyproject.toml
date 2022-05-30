@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "visualize-cgr"
+version = "0.1.0"
+description = ""
+authors = ["Jeya Balaji Balasubramanian <jeyabbalas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fsspec = "^2022.5.0"
+fastparquet = "^0.8.1"
+datashader = "^0.14.0"
+colorcet =  "^3.0.0"
+google-cloud-storage = "^2.3.0"
+dask = "^2022.5.2"
+numpy = "^1.22.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
